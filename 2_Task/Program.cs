@@ -7,11 +7,11 @@
  {
     double[] result = {0, 0, 0};
     Console.Write($"Введите координату x {message} -> ");
-    result[0] = Convert.ToDouble(Console.ReadLine());
+    result[0] = Convert.ToDouble(Console.ReadLine()); // 0 индекс - x координата
     Console.Write($"Введите координату y {message} -> ");
-    result[1] = Convert.ToDouble(Console.ReadLine());
+    result[1] = Convert.ToDouble(Console.ReadLine()); // 1 индекс - y координата
     Console.Write($"Введите координату z {message} -> ");
-    result[2] = Convert.ToDouble(Console.ReadLine());
+    result[2] = Convert.ToDouble(Console.ReadLine()); // 1 индекс - z координата
     return result;
  }
 
